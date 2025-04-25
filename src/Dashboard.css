@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Manrope:wght@200..800&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inspiration&family=Manrope:wght@200..800&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inspiration&family=Manrope:wght@200..800&family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container-fluid{
+    
+    height: 92%;
+    padding-bottom: 5px !important;
+    
+}
+.DashCardMain{
+    /* height: 24vh; */
+}
+.StudentProgressCard{
+    height: 40%;
+}
+.StudentCardHeader button{
+    font-size:12px;
+    color: #FF6C95;
+    border: 1px solid #FF6C95;
+    background-color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.StudentCardHeader{
+  display: flex;
+  
+}
+.StudentCardButtons{
+    gap: 5px;  
+}
+
+
+/* DashCard */
+.DashCard1,.DashCard2{
+  height:23vh 
+}
+
+
+
+
+
+/* StudentStatus card */
+.StudentStatusCard{
+    
+    height: 60%;
+}
+.studentstatusContainer::-webkit-scrollbar{
+    width: 2px;
+    height: 50px !important;
+    background-color:#FF6C95
+}
+.studentstatusContainer::-webkit-scrollbar-track{
+    width: 5px;
+    background-color:#c9ccd0
+}
+.studentstatusContainer::-webkit-scrollbar-thumb{
+      width: 2px;
+      height: 50px !important;
+      background-color:#FF6C95
+}
+
+
+.studentstatusContainer {
+    padding: 8px;
+    background:white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 50px 0px rgba(7, 5, 26, 0.07);
+    overflow-y: scroll;
+    scrollbar-width: 3px;
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+.StatusHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins, sans-serif; 
+    
+}
+
+.Statustitle {
+    font-size: 19px;
+    color: #212121;
+    font-weight: 500;
+    margin: 0;
+}
+
+.StatusSubtitle {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+.Statusdropdown {
+    
+    border: 0.4px solid #FF6C95;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    color:  #FF6C95;
+    font-size: 10px;
+    padding: 5px;
+    width: 80px;
+
+} 
+.StatusSearch-box{
+    padding: 5px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    height: 30px;
+    font-size: 10px;
+    
+}
+.iIjLKU{
+  background-color:#F6F6F6 !important;
+  margin-top: 10px;
+  min-height: 40px !important;
+
+}
+
+
+
+
+
+
+
+/* SubjectStatus Card */
+.SubjectStatusCard{
+    
+    height: 60% !important;
+}
+
+.subject-status-container::-webkit-scrollbar{
+    width: 2px;
+    height: 50px !important;
+    background-color:#FF6C95
+}
+.subject-status-container::-webkit-scrollbar-track{
+    width: 5px;
+    background-color:#c9ccd0
+}
+.subject-status-container::-webkit-scrollbar-thumb{
+      width: 2px;
+      height: 50px !important;
+      background-color:#FF6C95
+}
+
+
+.subject-status-container {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100% !important;
+    overflow-y: scroll;
+    scrollbar-width: 3px;
+    scroll-behavior: smooth;
+  }
+  
+  .subject-status-header {
+    padding-bottom: 5px;
+    padding: 5px;
+    
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .status-dropdown {
+    border: 0.4px solid #FF6C95;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    color:  #FF6C95;
+    font-size: 11px;
+    padding: 5px;
+  }
+  
+ 
+  .subject-table {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .subject-table th {
+    background:  #F0F0F0 !important;
+    text-align: left;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Inter';
+  }
+ 
+  
+  .subject-table td {
+    padding: 50px;
+    font-family: 'Inter';
+    font-size: 14px;
+  }
+  .chaptername{
+    width: 30%;
+  }
+  
+
+  .progress-container {
+    width: 90%;
+  }
+  
+  .custom-progress-bar .progress-bar {
+    background: linear-gradient(to right, #ec008c, #fc6767);
+    border-radius: 10px;
+    height: 12px;
+    
+    
+  }
+  .custom-progress-bar{
+    height: 12px !important;
+  }
+
+
+
+
+
+
+  /* Notes card */
+.NotesContainer{
+  
+
+}
+
+.NotesContentHeader p{
+  color:black;
+  font-family: "DM Sans";
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed #A9A9A9;
+}
+.NotesContentBody p{
+  color: rgba(0, 0, 0, 0.60);
+  font-family: "DM Sans";
+  font-size: 0.7rem ;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center !important;
+}
+
+.NotesHeader p{
+      color: #212121;
+      font-family: "Poppins" !important;
+      font-size: 1.3rem !important;
+      font-style: normal;
+      font-weight: 500;
+      margin-bottom: 5px;
+}
+
+.NotesContent3 ,.NotesContent2,.NotesContent1{
+  border-radius: 15px !important;
+  
+}
+
+
+
+
+/* TimeTable card */
+
+.TimeTableCard{
+  padding: 3px !important;
+}
+
+
+.table-container {
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  height: 100%;
+}
+
+.table-title {
+  color: #212121;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+
+.time-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.tablecolumns {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-left:1px dashed #ddd; 
+  text-align: center;
+}
+.time-table th{
+  border: none !important;
+  text-align: center;
+}
+
+
+
+.time-table td {
+  font-size: 10px;
+  font-weight: 500;
+  color: #AEB9E1;
+  
+}
+
+.day-column {
+  color: #6b7280;
+  font-weight: 500;
+  text-align: center;
+  border-style: none;
+  width: 12%;
+  
+}
+
+.subject-box {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.subject-grade {
+  font-size: 10px;
+  color: black;
+}
+.timetable-timings th{
+  background-color: white !important;
+  font-size: 10px;
+  color: #AEB9E1;
+  font-family:"Manrope";
+  border-style: none;
+}
+
+
+
+
+/* MessageCard */
+.messagecontent{
+  overflow-y: scroll;
+}
+.messagecontent::-webkit-scrollbar{
+  width: 2px;
+  height: 50px !important;
+  background-color:#FF6C95
+}
+.messagecontent::-webkit-scrollbar-track{
+  width: 5px;
+  background-color:#c9ccd0
+}
+.messagecontent::-webkit-scrollbar-thumb{
+    width: 2px;
+    height: 50px !important;
+    background-color:#FF6C95
+}
+.messagecardHeader button{
+  width: 65px;
+  height: 24px;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%)
+}
+
+
+.messageprofile img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
+
+.messages span{
+  display: flex;
+  color: #0A1629;
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0;
+
+}
+
+
+
+#messageSpan{
+  color: #91929E;
+  font-family: "Nunito Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+
+
+/* Calender card */
+
+.react-calendar__navigation{
+  margin-bottom: 5px;
+}
+
+.react-calendar__navigation__label span{
+  color:  #4A5660;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.react-calendar__month-view__weekdays__weekday{
+  color:  #B5BEC6;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.react-calendar__month-view__days button{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  color:  #4A5660;
+  
+}
+
+
+.react-calendar__tile--active {
+  background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%) !important;
+  color: white !important; 
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.custom-calendar {
+  border: none !important;
+  height: 320px;
+}
+
+.activities-title{
+  color: #777;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #F5F4F9;
+  height: 27px;
+  
+}
+
+.react-calendar__tile--now{
+  background-color: #ff6c968d !important;
+  border-radius: 50%;
+}
+
+.add-event-btn{
+  background:linear-gradient(90deg, #EC008C 0%, #FC6767 100%) !important ;
+  border: none !important;
+  height: 30px;
+}
+.event-icon{
+  background: #F0F0F0;
+  width: 30px;
+  padding: 3px;
+  border-radius:5px ;
+  
+}
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
